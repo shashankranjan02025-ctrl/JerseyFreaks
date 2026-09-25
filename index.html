@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JerseyFreaks — football jerseys for fans who live the game.">
+  <title>JerseyFreaks | Football Jerseys</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">JERSEY<span>FREAKS</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cartButton">Cart <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE FAN STORE</p>
+        <h1>Wear the game.<br><span>Live the passion.</span></h1>
+        <p>Premium-looking football jerseys for fans who want their colours to stand out.</p>
+        <a class="primary" href="#shop">Shop jerseys</a>
+      </div>
+      <div class="hero-card">
+        <div class="shirt">JF</div>
+        <div class="floating">NEW DROP<br><strong>2026</strong></div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SHOP</p>
+          <h2>Latest jerseys</h2>
+        </div>
+        <p class="muted">Add products to your cart and send your order through WhatsApp.</p>
+      </div>
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="banner">
+      <div>
+        <p class="eyebrow">JERSEYFREAKS</p>
+        <h2>Your club. Your country. Your jersey.</h2>
+      </div>
+      <a class="secondary" href="#shop">Explore collection</a>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">ABOUT US</p>
+      <h2>Made for football people.</h2>
+      <p>JerseyFreaks is a fan-first jersey store. Browse the collection, choose your size, add your favourites to the cart, and place your order directly.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Ready to order?</h2>
+      <p>Replace the WhatsApp number in <code>script.js</code> with your business number, then customers can send their cart directly to you.</p>
+      <a class="primary" id="contactWhatsApp" href="#" target="_blank">Chat on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <strong>JERSEYFREAKS</strong>
+    <span>© 2026 JerseyFreaks. All rights reserved.</span>
+  </footer>
+
+  <div class="drawer-backdrop" id="backdrop"></div>
+  <aside class="cart" id="cart">
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button id="closeCart">×</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+    <button class="primary full" id="orderButton">Order on WhatsApp</button>
+    <p class="small">Before publishing, replace the sample WhatsApp number and product details with your real business information.</p>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
