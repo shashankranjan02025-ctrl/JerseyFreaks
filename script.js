@@ -3,7 +3,7 @@
 // =============================
 // Replace this with your WhatsApp number in international format.
 // Example for India: 919876543210 (NO +, spaces or dashes)
-const WHATSAPP_NUMBER = "919999999999";
+const WHATSAPP_NUMBER = "7202022018";
 
 const products = [
   {id:1,name:"JerseyFreaks Signature",price:899,label:"JF",className:"lime"},
